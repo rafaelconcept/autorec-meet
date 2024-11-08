@@ -1,0 +1,19 @@
+{
+  "name": "autorec-meet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.7.7",
+    "puppeteer": "^10.2.0",
+    "node-audiorecorder": "^0.1.0",
+    "puppeteer-screen-recorder": "^1.0.0",
+    "recordrtc": "^5.6.2",
+    "puppeteer-stream": "^1.0.0"
+  }
+}
