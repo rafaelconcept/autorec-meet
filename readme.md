@@ -38,8 +38,9 @@ AutoRec-Meet is a Node.js script that automates the process of joining a Google 
     ```
 
 2. Run the script:
-    ```npm start
-    ```
+   ```sh
+   npm start
+   ```
 
 ## How It Works
 
