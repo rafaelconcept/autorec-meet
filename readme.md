@@ -69,4 +69,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Puppeteer](https://github.com/puppeteer/puppeteer)
 - [Puppeteer Extra](https://github.com/berstend/puppeteer-extra)
-- [Puppeteer Stream](https://github.com/puppeteer/puppeteer-stream)
+- [Puppeteer Stream](https://github.com/SamuelScheit/puppeteer-stream)
