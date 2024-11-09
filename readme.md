@@ -47,9 +47,10 @@ AutoRec-Meet is a Node.js script that automates the process of joining a Google 
 1. The script launches a headless browser using Puppeteer.
 2. It navigates to the specified Google Meet URL.
 3. It enters a name and joins the meeting.
-4. It starts recording the meeting session.
-5. It periodically checks for participants.
-6. If no participants are detected for a specified duration, the recording stops, and the browser closes.
+4. It waits for someone to accept the entry into the meeting for up to 60 seconds.
+5. It starts recording the meeting session.
+6. It periodically checks for participants.
+7. If no participants are detected for a specified duration, the recording stops, and the browser closes.
 
 ## Configuration
 
@@ -59,6 +60,10 @@ AutoRec-Meet is a Node.js script that automates the process of joining a Google 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 

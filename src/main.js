@@ -6,20 +6,14 @@ const { launch, getStream } = puppeteerStream;
 import fs from "fs";
 import { executablePath } from 'puppeteer';
 
-
-
 const stealthPlugin = StealthPlugin();
 stealthPlugin.enabledEvasions.delete("iframe.contentWindow");
 stealthPlugin.enabledEvasions.delete("media.codecs");
 puppeteer.use(stealthPlugin);
 
 
-
-
-
 const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 const file = fs.createWriteStream(`./report/video/rec-${timestamp}.webm`);
-
 
 
 (async () => {
